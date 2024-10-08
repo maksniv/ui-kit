@@ -1,0 +1,39 @@
+{
+  "name": "@maksniv/ui",
+  "version": "0.0.6",
+  "description": "A nuxt 3 UI library, by maksniv",
+  "license": "MIT",
+  "type": "module",
+  "main": "nuxt.js",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt-icon": "^0.6.8",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.2",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksniv/ui-kit.git"
+  },
+  "keywords": [
+    "Nuxt3",
+    "UI",
+    "Components",
+    "Component library",
+    "Nuxt library",
+    "Nuxt module"
+  ],
+  "author": "Maksim Niveykin",
+  "homepage": "https://github.com/maksniv/ui-kit.git#readme"
+}

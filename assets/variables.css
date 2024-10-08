@@ -1,0 +1,106 @@
+:root {
+  /* primary color */
+  --primary: #635fc7;
+  --primary-secondary: #f7f5ff;
+  --primary-border: #bcb0f5;
+  --primary-hover: #6b68d8;
+  --primary-focus: #afa5d1;
+
+  /* danger */
+  --danger: #e05b5b;
+  --danger-secondary: #FFE8E8;
+  --danger-border: #E2B6B6;
+  --danger-hover: #e05b5b;
+  --danger-focus: #e3a7a7;
+
+  /* success */
+  --success: #21725e;
+  --success-secondary: #E7FAF5;
+  --success-border: #B5D0C9;
+  --success-hover: #2b9b7d;
+  --success-focus: #C8EBE2;
+
+  /* warning */
+  --warning: #d7c32c;
+  --warning-secondary: #F9F5D5;
+  --warning-border: #F5EFB9;
+  --warning-hover: #eed83c;
+  --warning-focus: #FCF8CE;
+
+  /* info */
+  --info: #3498db;
+  --info-secondary: #EBEEFF;
+  --info-border: #AAB6F4;
+  --info-hover: #4cacf2;
+  --info-focus: #E2E7FF;
+
+  /* dark */
+  --dark: #000112;
+  --navy: #20212c;
+  --gray: #2b2c37;
+  --light-gray: #828fa3;
+  --perfect-gray: #a4a4a4;
+  --transparent-gray: rgba(103, 103, 103, 0.35);
+  --black-gray: rgba(255, 255, 255, 0.12);
+  --transparent-navy: rgba(54,78,126,0.102);
+
+  /* light */
+  --white: #FFFFFF;
+  --almost-white: #9d9d9d;
+  --blue-white: #f4f7fd;
+
+  /* skeleton */
+  --base-skeleton: #eee;
+  --skeleton-light: #ccc;
+  --skeleton-light2: #ddd;
+
+  /* radius*/
+  --border-radius: 8px;
+
+  /* height */
+  --base-height: 42px;
+
+  /* max-width */
+  --max-width-field: 500px;
+
+  /* z-index */
+  --z-dropdown: 1000;
+
+  --z-top-listing: 500;
+
+  --z-modal: 2000;
+}
+
+.light-mode body {
+  /* light theme */
+
+  /* bg */
+  --sidebar: var(--white);
+  --background: var(--blue-white);
+  --overlay: var(--transparent-gray);
+  --border-base: var(--transparent-navy);
+  --disabled: var(--almost-white);
+  --box-shadow: var(--transparent-navy);
+
+  /* text color */
+  --base-text-color: var(--dark);
+  --secondary-text-color: var(--light-gray);
+  --disabled-text-color: var(--perfect-gray);
+}
+
+.dark-mode {
+  /* dark theme */
+
+  /* bg */
+  --sidebar: var(--gray);
+  --background: var(--navy);
+  --overlay: var(--transparent-gray);
+  --border-base: var(--black-gray);
+  --disabled: var(--almost-white);
+  --box-shadow: var(--transparent-navy);
+
+  /*text color*/
+  --base-text-color: var(--white);
+  --secondary-text-color: var(--light-gray);
+  --disabled-text-color: var(--perfect-gray);
+  }
