@@ -27,10 +27,10 @@ export default defineNuxtModule<ModuleOptions>({
     await addComponentsDir({
       path: resolver.resolve("./runtime/components"),
       pathPrefix: false,
-      prefix: "UI",
+      prefix: "",
       global: true,
     });
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve('./runtime/plugin'))
+    // addPlugin(resolver.resolve('./runtime/plugin'))
   },
 })
