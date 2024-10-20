@@ -1,6 +1,6 @@
 {
   "name": "@maksniv/ui",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A nuxt 3 UI library, by maksniv",
   "license": "MIT",
   "type": "module",
