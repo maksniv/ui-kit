@@ -2,9 +2,9 @@
   <span class="loader"></span>
 </template>
 
-<style lang="sass" scoped>
+<style lang="stylus" scoped>
 .loader
-  z-index: 1000
+  z-index: var(--z-loader)
   color: var(--base-text-color)
   font-size: 15px
   width: 1em
