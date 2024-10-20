@@ -4,7 +4,7 @@
 
 <style lang="sass" scoped>
 .loader
-  z-index: var(--z-loader)
+  z-index: 1000
   color: var(--base-text-color)
   font-size: 15px
   width: 1em
@@ -14,10 +14,10 @@
   left: 50%
   position: absolute
   text-indent: -9999em
-  animation: spin 1.3s infinite linear
+  animation: mulShdSpin 1.3s infinite linear
   transform: translateZ(0)
 
-@keyframes spin
+@keyframes mulShdSpin
   0%,
   100%
     box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0
