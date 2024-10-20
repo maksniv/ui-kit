@@ -11,10 +11,6 @@
 </template>
 
 <script lang="ts" setup>
-interface Props {
-  color?: string | null;
-  outlined?: boolean | false;
-}
 defineProps({
   color: {
     type: String,
@@ -25,7 +21,6 @@ defineProps({
     default: false
   }
 });
-
 </script>
 
 <style scoped lang="stylus">
