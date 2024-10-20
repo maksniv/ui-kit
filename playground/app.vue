@@ -1,7 +1,6 @@
 <template>
   <div>
-    <UIButton>hhhhh</UIButton>
-    <UILoader></UILoader>
+   <UIInput placeholder-text="test" value="gfgf" label-text="dgfg"/>
   </div>
 </template>
 
