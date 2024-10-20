@@ -46,10 +46,10 @@ defineProps({
   align-items: center
   gap: 5px
   &:hover
-    @media @media (hover: hover) and (pointer: fine)
-    transform: scale(1.03)
+    @media (hover: hover) and (pointer: fine)
+      transform: scale(1.03)
   &:active
-    @media @media (hover: hover) and (pointer: fine)
+    @media (hover: hover) and (pointer: fine)
       transform: scale(0.97)
   // primary
   &[primary]

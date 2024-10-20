@@ -1,6 +1,6 @@
 <template>
   <div>
-    <UITest content="fff"></UITest>
+    <UIButton>hhhhh</UIButton>
     <UILoader></UILoader>
   </div>
 </template>
