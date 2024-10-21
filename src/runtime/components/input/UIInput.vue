@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, defineProps, defineEmits } from 'vue';
+import { ref, watch } from 'vue';
 
 const props = defineProps({
   modelValue: {
@@ -98,5 +98,6 @@ watch(
     &:active
       border: 1px solid var(--primary)
     &:focus-visible
-      box-shadow: 0 0 0 2px var(--primary-focus)
+      outline none
+      box-shadow: 0 0 0 1px var(--primary-focus)
 </style>

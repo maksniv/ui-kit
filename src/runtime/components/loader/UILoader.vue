@@ -5,13 +5,13 @@
 <style lang="stylus" scoped>
 .loader
   z-index: var(--z-loader)
-  color: var(--base-text-color)
+  color: var(--text)
   font-size: 15px
   width: 1em
   height: 1em
   border-radius: 50%
-  top: 50%
-  left: 50%
+  top: calc(50% - 0.5em)
+  left: calc(50% - 0.5em)
   position: absolute
   text-indent: -9999em
   animation: mulShdSpin 1.3s infinite linear

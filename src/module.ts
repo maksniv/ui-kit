@@ -7,8 +7,8 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'my-module',
-    configKey: 'myModule',
+    name: '@maksniv/ui',
+    configKey: '@maksniv/ui',
   },
   // Default configuration options of the Nuxt module
   defaults: {
